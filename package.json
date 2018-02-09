@@ -3,7 +3,6 @@
   "version": "4.0.0",
   "description": "Playerunknown's Battlegrounds API Wrapper",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "publish-prerelease": "np prerelease --any-branch --tag=beta",
     "publish-patch": "np patch",
