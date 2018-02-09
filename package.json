@@ -1,0 +1,45 @@
+{
+  "name": "pubg-api-redis-magic",
+  "version": "3.7.0",
+  "description": "Playerunknown's Battlegrounds API Wrapper",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "publish-prerelease": "np prerelease --any-branch --tag=beta",
+    "publish-patch": "np patch",
+    "publish-minor": "np minor",
+    "publish-major": "np major"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javilobo8/pubg-api-redis-magic.git"
+  },
+  "keywords": [
+    "api",
+    "redis",
+    "pubg",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "javilobo8",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javilobo8/pubg-api-redis-magic/issues"
+  },
+  "homepage": "https://github.com/javilobo8/pubg-api-redis-magic#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "query-string": "^4.3.4",
+    "redis": "^2.7.1",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.3.0",
+  }
+}
