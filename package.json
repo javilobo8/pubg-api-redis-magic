@@ -1,5 +1,5 @@
 {
-  "name": "@javiloob8/pubg-api-redis-magic",
+  "name": "@javilobo8/pubg-api-redis-magic",
   "version": "4.0.1",
   "description": "Playerunknown's Battlegrounds API Wrapper",
   "main": "index.js",
