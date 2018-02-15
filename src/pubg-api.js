@@ -38,13 +38,15 @@ class PubgAPI {
 
     if (!data) {
       data = await this.getFromApi(playerName);
-      if (data.error) {
+      if (!data || data.error) {
         data = await this.getMagic(playerName);
       }
 
       if (data) {
         this.cache.set(cacheKey, JSON.stringify(data));
       }
+    } else {
+      data = JSON.parse(data);
     }
 
     return new Profile(data);
